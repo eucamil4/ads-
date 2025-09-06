@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* empilha tabelas e títulos */
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 15px 0;
+    color: #333;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+</style>
+</head>
+<body>
+    <table border="1">
+        <caption>Produtos</caption>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Marca</th>
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Preço total</th>
+                <th>Fabricante</th>
+                <th>Data de validade</th>
+                <th>Localização</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Leite</td>
+                <td>Laticinios</td>
+                <td>Itambe</td>
+                <td>20</td>
+                <td>4,50</td>
+                <td>90,00</td>
+                <td>Itambé Alimentos</td>
+                <td>12/10</td>
+                <td>A1</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Arroz</td>
+                <td>Grãos</td>
+                <td>Tio João</td>
+                <td>15</td>
+                <td>22,0</td>
+                <td>330,00</td>
+                <td>Camil Alimentos</td>
+                <td>11/08</td>
+                <td>B2</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Sabão em pó</td>
+                <td>Limpeza</td>
+                <td>Omo</td>
+                <td>10</td>
+                <td>14,90</td>
+                <td>149,00</td>
+                <td>Unilever</td>
+                <td>01/01</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Oleo de soja</td>
+                <td>Cozinha</td>
+                <td>Liza</td>
+                <td>25</td>
+                <td>6,80</td>
+                <td>170,00</td>
+                <td>Cargil</td>
+                <td>22/12</td>
+                <td>A3</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Achocolatado</td>
+                <td>Bebidas</td>
+                <td>Nescau</td>
+                <td>18</td>
+                <td>7,50</td>
+                <td>135,00</td>
+                <td>Nestle</td>
+                <td>14/11</td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Shampoo</td>
+                <td>Higiene</td>
+                <td>Seda</td>
+                <td>12</td>
+                <td>10,90</td>
+                <td>130,80</td>
+                <td>Unilever</td>
+                <td>09/09</td>
+                <td>C4</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>Macarrão</td>
+                <td>Massas</td>
+                <td>Adria</td>
+                <td>30</td>
+                <td>4,20</td>
+                <td>126,00</td>
+                <td>Dias Brancos</td>
+                <td>16/02</td>
+                <td>B1</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Detergente</td>
+                <td>Limpeza</td>
+                <td>Ypê</td>
+                <td>40</td>
+                <td>2,30</td>
+                <td>92,00</td>
+                <td>Quimica Amparo</td>
+                <td>12/05</td>
+                <td>B3</td>
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>Café Torrado</td>
+                <td>Bebidas</td>
+                <td>Pilão</td>
+                <td>22</td>
+                <td>15,00</td>
+                <td>330,00</td>
+                <td>JDE Brasil</td>
+                <td>16/10</td>
+                <td>A4</td>
+            </tr>
+            <tr>
+                <td>010</td>
+                <td>Farinha trigo</td>
+                <td>Panificação</td>
+                <td>Dona Benta</td>
+                <td>35</td>
+                <td>5,50</td>
+                <td>190,00</td>
+                <td>Itambé Alimentos</td>
+                <td>18/07</td>
+                <td>B2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
