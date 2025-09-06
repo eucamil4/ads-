@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* empilha tabelas e títulos */
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 15px 0;
+    color: #333;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+</style>
+</head>
+<body>
+    <table border="1">
+        <caption>Pacientes</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>idade</th>
+                <th>sexo</th>
+                <th>diagnostico</th>
+                <th>medico</th>
+                <th>internação</th>
+                <th>alta</th>
+                <th>quarto</th>
+                <th>status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Ana</td>
+                <td>34</td>
+                <td>F</td>
+                <td>Pneumonia</td>
+                <td>DR.Lima</td>
+                <td>01/09</td>
+                <td>05/09</td>
+                <td>203</td>
+                <td>Alta</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>João Pereira</td>
+                <td>57</td>
+                <td>M</td>
+                <td>AVC</td>
+                <td>DR.torres</td>
+                <td>28/05</td>
+                <td>-</td>
+                <td>102</td>
+                <td>internado</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Carlos Silva</td>
+                <td>46</td>
+                <td>M</td>
+                <td>Fratura braço</td>
+                <td>DR.mendes</td>
+                <td>07/09</td>
+                <td>09/09</td>
+                <td>308</td>
+                <td>Alta</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Maria Oliveira</td>
+                <td>87</td>
+                <td>F</td>
+                <td>Diabetes</td>
+                <td>DR.Rocha</td>
+                <td>25/08</td>
+                <td>-</td>
+                <td>115</td>
+                <td>internado</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Luana MArtins</td>
+                <td>29</td>
+                <td>F</td>
+                <td>Apendicite</td>
+                <td>DR.castro</td>
+                <td>02/09</td>
+                <td>04/09</td>
+                <td>286</td>
+                <td>Alta</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
